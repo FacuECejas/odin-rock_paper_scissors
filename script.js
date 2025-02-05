@@ -71,4 +71,4 @@ function playGame() {
     }
 }
 
-playGame();
+console.log("Hi, to play Rock Paper Scissors with me type \'playGame();\'");
