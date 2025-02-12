@@ -29,6 +29,7 @@ scissorsBtn.addEventListener("click", () => {
 //Reset button event handler
 const resetBtn = document.createElement("button");
 resetBtn.textContent = "Reset";
+resetBtn.classList.add("reset");
 resetBtn.addEventListener("click", () => {
     humanScore = 0;
     computerScore = 0;
